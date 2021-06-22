@@ -1,4 +1,12 @@
-span {
+#links{
+  text-align: right;
+}
+
+#links > a{
+  margin-right: 20px;
+}
+
+#heading > span {
   padding: 0px;
   font-family: "Futura", sans-serif;
   font-size: 60px;
