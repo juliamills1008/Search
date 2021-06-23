@@ -43,7 +43,7 @@ form > #searchbar{
 
 }
 
-form > #searchbutton{
+form > .searchbutton{
   border: none;
   margin-top: 20px;
   padding: 7px;
@@ -55,7 +55,7 @@ form > #searchbutton{
   width: 150px;
 }
 
-#searchbutton:hover{
+.searchbutton:hover{
   border-width: 5px;
 }
 
