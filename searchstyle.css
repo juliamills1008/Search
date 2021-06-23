@@ -9,6 +9,10 @@
   font-size: 12px;
 }
 
+#links > a:hover{
+  text-decoration: underline;
+}
+
 /*in case we cant use the image for the logo
 #heading > span {
   padding: 0px;
