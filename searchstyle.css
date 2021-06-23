@@ -25,6 +25,10 @@ form > #searchbar{
   border-color: gainsboro;
   border-style: solid;
 }
+#searchbar:hover{
+  box-shadow: 5px 5px 2px dimgrey;
+  box-shadow: 5px -5px 2px dimgrey;
+}
 
 form > #searchbutton{
   border: none;
