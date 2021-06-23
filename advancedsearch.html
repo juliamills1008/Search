@@ -17,38 +17,43 @@
         <img src="googlelogo_color_272x92dp.png" alt="Google Logo" class="topleft">
 
         <div id="advheading">
-            <h6>Advanced Search</h6>
+            Advanced Search
         </div>
         
         <form action="https://www.google.com/advanced_search" id="advform">
-            <table>
+            <table id="advtable">
                 <tr>
-                    <td>Find pages with...</td>
-                    <td></td>
+                    <td class="firstcolumn">Find pages with...</td>
+                    <td class="secondcolumn"></td>
                     <td>To do this in the search box</td>
                 </tr>
                 <tr>
-                    <td>all these words:</td>
-                    <td><input type="text" name="all" class="advinput"> </td>
-                    <td>Type important words: tricolor rat terrier</td>
+                    <td class="firstcolumn">all these words:</td>
+                    <td class="secondcolumn"><input type="text" name="all" class="advinput"> </td>
+                    <td class="thirdcolumn">Type important words: tricolor rat terrier</td>
                 </tr>
                 <tr>
-                    <td>this exact word of phrase:</td>
-                    <td><input type="text" name="exact" class="advinput"></td>
-                    <td>Put exact words in quotes: "rat terrier"</td>
+                    <td class="firstcolumn">this exact word of phrase:</td>
+                    <td class="secondcolumn"><input type="text" name="exact" class="advinput"></td>
+                    <td class="thirdcolumn">Put exact words in quotes: "rat terrier"</td>
                 </tr>
                 <tr>
-                    <td>any of these words:</td>
-                    <td><input type="text" name="any" class="advinput"></td>
-                    <td>type or between all of the words you want: "miniature or standard"</td>
+                    <td class="firstcolumn">any of these words:</td>
+                    <td class="secondcolumn"><input type="text" name="any" class="advinput"></td>
+                    <td class="thirdcolumn">type or between all of the words you want: "miniature or standard"</td>
                 </tr>
                 <tr>
-                    <td>none of these words:</td>
-                    <td><input type="text" name="none" class="advinput"></td>
-                    <td>put a minus side before words you don't want: -rodent, -"Jack Russell"</td>
+                    <td class="firstcolumn">none of these words:</td>
+                    <td class="secondcolumn"><input type="text" name="none" class="advinput"></td>
+                    <td class="thirdcolumn">put a minus side before words you don't want: -rodent, -"Jack Russell"</td>
+                </tr>
+                <tr>
+                    <td class="firstcolumn"></td>
+                    <td align="right" style="padding-right: 10px;"><input type="submit" value="Google Search" id="advsearchbutton"></td>
+                    <td class="thirdcolumn"></td>
                 </tr>
             </table>
-            <input type="submit" value="Google Search" id="advsearchbutton">
+            
         </form>
     </body>
 </html>
