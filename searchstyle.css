@@ -29,6 +29,8 @@ form > #searchbar{
   border-width: 1px;
   border-color: gainsboro;
   border-style: solid;
+  width: 40%;
+  height: 45px;
 }
 
 #searchbar:hover{
@@ -43,13 +45,14 @@ form > #searchbar{
 
 form > #searchbutton{
   border: none;
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 7px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   background-color: #F8F8F8;
   color: #282828;
-  font-size: 12px;
+  font-size: 14px;
+  width: 150px;
 }
 
 #searchbutton:hover{
@@ -62,7 +65,7 @@ form > #searchbutton{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 200px;
+  margin-top: 145px;
   align: center;
   width: 24%;
   padding: 30px;
