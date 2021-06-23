@@ -2,16 +2,53 @@
 <html lang="en">
     <head>
         <title>Advanced Search</title>
+
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <!-- importing bootstrap-->
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- to make site good for all screen sizes-->
+
+        <link rel="stylesheet" href="searchstyle.css">
+        <!-- linking stylesheet-->
     </head>
     <body>
-        <form action="https://www.google.com/advanced_search">
-            <input type="text" name="q" id="searchbar">
-            <input type="submit" value="Google Search" id="searchbutton">
+        <!--imported google logo image-->
+        <img src="googlelogo_color_272x92dp.png" alt="Google Logo" class="topleft">
+
+        <div id="advheading">
+            <h6>Advanced Search</h6>
+        </div>
+        
+        <form action="https://www.google.com/advanced_search" id="advform">
+            <table>
+                <tr>
+                    <td>Find pages with...</td>
+                    <td></td>
+                    <td>To do this in the search box</td>
+                </tr>
+                <tr>
+                    <td>all these words:</td>
+                    <td><input type="text" name="all" class="advinput"> </td>
+                    <td>Type important words: tricolor rat terrier</td>
+                </tr>
+                <tr>
+                    <td>this exact word of phrase:</td>
+                    <td><input type="text" name="exact" class="advinput"></td>
+                    <td>Put exact words in quotes: "rat terrier"</td>
+                </tr>
+                <tr>
+                    <td>any of these words:</td>
+                    <td><input type="text" name="any" class="advinput"></td>
+                    <td>type or between all of the words you want: "miniature or standard"</td>
+                </tr>
+                <tr>
+                    <td>none of these words:</td>
+                    <td><input type="text" name="none" class="advinput"></td>
+                    <td>put a minus side before words you don't want: -rodent, -"Jack Russell"</td>
+                </tr>
+            </table>
+            <input type="submit" value="Google Search" id="advsearchbutton">
         </form>
     </body>
 </html>

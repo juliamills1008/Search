@@ -70,3 +70,34 @@ form > #searchbutton{
   width: 24%;
   padding: 30px;
 }
+
+/*formatting for advanced search*/
+
+/*logo placement*/
+.topleft{
+  align: margin-right;
+  width: 6.5%;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+#advheading{
+  color: #DB4437;
+  font-size: 16px;
+}
+
+#advform{
+
+  align: margin-right;
+
+}
+
+#advsearchbutton{
+
+}
+
+.advinput{
+  margin-top: 10px;
+  border-color: lightgrey;
+  border-style: solid;
+}
