@@ -78,7 +78,7 @@ form > #searchbutton{
   align: margin-right;
   width: 6.5%;
   padding-left: 20px;
-  padding-top: 20px;
+  padding-top: 3px;
 }
 
 #advheading{
@@ -91,11 +91,6 @@ form > #searchbutton{
   font-family: Arial,sans-serif;
 }
 
-#advform{
-
-  align: margin-right;
-
-}
 
 #advsearchbutton{
   align: right;
@@ -113,8 +108,8 @@ form > #searchbutton{
 
 #advtable{
   margin-top: 30px;
-  margin-left: 35px;
-  padding: 10px;
+  margin-left: 45px;
+  width: 80%;
 }
 
 .advinput{
@@ -122,18 +117,27 @@ form > #searchbutton{
   border-color: lightgrey;
   border-style: solid;
   width: 100%;
+  border-width: 1px;
+  border-top: 1px solid darkgrey;
 }
 
+#top3{
+  color: grey;
+  font-weight: bold;
+  font-size: 12px;
+}
 .firstcolumn{
-  padding: 10px;
+  padding-bottom: 0px;
+  padding-right: 30px;
+  font-size: 13px;
+
 }
 
 .secondcolumn{
   width: 600px;
-  padding: 10px;
 }
 
 .thirdcolumn{
   font-size: 12px;
-  padding: 10px;
+  padding-left: 20px;
 }
