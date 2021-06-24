@@ -38,17 +38,16 @@ form > #searchbar{
 }
 
 #searchbar:hover{
-  box-shadow: 5px 5px 2px dimgrey;
-  box-shadow: 5px 5px 2px dimgrey;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, .15);
 }
 
 #searchbar:focus{
-  box-shadow: 5px 5px 2px dimgrey;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, .15);
 
 }
 
 form > .searchbutton{
-  border: none;
+  border: 1px solid #F8F8F8;
   margin-top: 20px;
   padding: 7px;
   padding-left: 20px;
@@ -59,8 +58,11 @@ form > .searchbutton{
   width: 150px;
 }
 
-.searchbutton:hover{
-  border-width: 5px;
+form > .searchbutton:hover{
+  border-width: 1px;
+  border-color: lightgrey;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, .15);
+  border-radius: 5px;
 }
 
 
@@ -120,10 +122,14 @@ form > .searchbutton{
 .advinput{
   margin-top: 10px;
   border-color: lightgrey;
-  border-style: solid;
   width: 100%;
   border-width: 1px;
   border-top: 1px solid darkgrey;
+}
+
+.advinput:focus{
+  border-color: blue;
+  box-shadow: inset;
 }
 
 #top3{
